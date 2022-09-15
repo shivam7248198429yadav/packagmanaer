@@ -12,9 +12,8 @@ import packagmanaer
 struct DemoSwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-//            SwiftUIVView()
-            ContentView()
-            SwiftUIVView()
+//            ContentView()
+            SwiftUIView()
         }
     }
 }

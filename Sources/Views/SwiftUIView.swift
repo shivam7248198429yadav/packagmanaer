@@ -9,10 +9,11 @@ import Foundation
 import SwiftUI
 @available(iOS 13.0, *)
 
-public struct SwiftUIVView: View {
+public struct SwiftUIView: View {
     public init() {}
     public var body: some View {
-        Text("This Is Thde Shivam yadav Text")
+        Text("This Is Text Generated from The package")
+        Image(uiImage: UIImage(named: "StarScream", in: .module, with: nil)!)
     }
 }
 

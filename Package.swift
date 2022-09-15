@@ -22,7 +22,10 @@ let package = Package(
         .target(
             name: "packagmanaer",
             dependencies: ["Starscream"],
-            path: "Sources"),
+            path: "Sources",
+            resources: [
+                .process("Resources/Media.xcassets")
+        ]),
         .testTarget(
             name: "packagmanaerTests",
             dependencies: ["packagmanaer"]),
