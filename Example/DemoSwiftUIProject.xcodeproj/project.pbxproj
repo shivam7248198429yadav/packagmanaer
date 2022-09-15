@@ -11,6 +11,7 @@
 		11111A8228D32133005B2437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11111A8128D32133005B2437 /* ContentView.swift */; };
 		11111A8428D32135005B2437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11111A8328D32135005B2437 /* Assets.xcassets */; };
 		11111A8728D32135005B2437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11111A8628D32135005B2437 /* Preview Assets.xcassets */; };
+		11111A8F28D3260E005B2437 /* packagmanaer in Frameworks */ = {isa = PBXBuildFile; productRef = 11111A8E28D3260D005B2437 /* packagmanaer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11111A8F28D3260E005B2437 /* packagmanaer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = DemoSwiftUIProject;
+			packageProductDependencies = (
+				11111A8E28D3260D005B2437 /* packagmanaer */,
+			);
 			productName = DemoSwiftUIProject;
 			productReference = 11111A7C28D32133005B2437 /* DemoSwiftUIProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 11111A7328D32133005B2437;
+			packageReferences = (
+				11111A8D28D3260D005B2437 /* XCRemoteSwiftPackageReference "packagmanaer" */,
+			);
 			productRefGroup = 11111A7D28D32133005B2437 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11111A8D28D3260D005B2437 /* XCRemoteSwiftPackageReference "packagmanaer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shivam7248198429yadav/packagmanaer/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11111A8E28D3260D005B2437 /* packagmanaer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11111A8D28D3260D005B2437 /* XCRemoteSwiftPackageReference "packagmanaer" */;
+			productName = packagmanaer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11111A7428D32133005B2437 /* Project object */;
 }

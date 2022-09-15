@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import packagmanaer
 
 @main
 struct DemoSwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
+//            SwiftUIVView()
             ContentView()
+            SwiftUIVView()
         }
     }
 }

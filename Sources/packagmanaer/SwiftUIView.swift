@@ -9,8 +9,9 @@ import Foundation
 import SwiftUI
 @available(iOS 13.0, *)
 
-struct SwiftUIVView: View {
-    var body: some View {
+public struct SwiftUIVView: View {
+    public init() {}
+    public var body: some View {
         Text("This Is Thde Shivam yadav Text")
     }
 }
